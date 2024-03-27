@@ -50,8 +50,6 @@ int main() {
 
 	logic(vector_1, vector_2, vector_3, size_1, size_2);
 
-	sorting_vectors(vector_3, size_1 + size_2);
-
 	cout << "Vector_3 elements: " << convert_to_string(vector_3, size_1 + size_2) << endl;
 	
 	delete[] vector_1;
